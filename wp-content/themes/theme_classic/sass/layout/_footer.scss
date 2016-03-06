@@ -1,0 +1,38 @@
+.site-footer {
+  font-size: (14/16)*1rem;
+  font-weight: 600;
+  border-top: 1px solid #ccc;
+  padding: 15px 0;
+  color: $footer-color;
+  .menu-footer-container {
+    .menu {
+      li {
+        a {
+          text-align: center;
+          display: block;
+          width: 100%;
+          height: 100%;
+          padding: 10px 15px;
+          line-height: 20px;
+          color: $footer-color;
+          &:hover {
+            color: $link_hover-color;
+          }
+        }
+      }
+    }
+  }
+  .site-info {
+    text-align: center;
+    p {
+      margin: 0;
+      padding: 10px 0;
+      a {
+        color: $footer-color;
+        &:hover {
+          color: $link_hover-color;
+        }
+      }
+    }
+  }
+}

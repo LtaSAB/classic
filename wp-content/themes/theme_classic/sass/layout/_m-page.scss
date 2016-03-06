@@ -1,0 +1,26 @@
+.main-posts {
+  padding: 30px 0 0;
+  article {
+    padding: 30px 0;
+    border-bottom: 1px solid #ccc;
+    &:last-of-type {
+      border-bottom: none;
+      padding-bottom: 0;
+    }
+    h2 {
+      margin: 0 auto 20px;
+    }
+    .date {
+      display: block;
+    }
+    .thumbnail-wrapper {
+      width: 290px;
+      margin: 30px auto;
+      img {
+        max-width: 100%;
+        height: auto;
+
+      }
+    }
+  }
+}
