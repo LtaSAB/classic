@@ -94,5 +94,20 @@
   }
   .pagination {
     margin: 80px auto;
+
+  }
+  //single page
+  .post.type-post {
+    padding: 100px 0;
+    header {
+      text-align: center;
+      h1 {
+        font-size: $h1-post-font-size;
+      }
+    }
+  }
+  //page about
+  .page.type-page {
+    padding: 80px 0 30px;
   }
 }

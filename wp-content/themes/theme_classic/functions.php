@@ -283,3 +283,11 @@ the_posts_pagination( $args = array(
 	'next_text' => __( ' ' ),
 	'screen_reader_text' => __( ' ' ),
 ));
+
+//form
+add_filter('comment_form_default_fields', 'mytheme_remove_url');
+
+function mytheme_remove_url($arg) {
+	$arg['url'] = '';
+	return $arg;
+};

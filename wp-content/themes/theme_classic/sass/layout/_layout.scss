@@ -157,7 +157,7 @@ h2 {
       font-weight: $link-pagination-weight;
     }
     .next.page-numbers, .prev.page-numbers {
-      padding: 5px 14px ;
+      padding: 5px 14px;
       position: relative;
       background-color: #111;
       &:hover {
@@ -172,7 +172,7 @@ h2 {
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%,-50%);
+        transform: translate(-50%, -50%);
 
       }
     }
@@ -187,5 +187,19 @@ h2 {
         content: '\f053';
       }
     }
+  }
+}
+
+.social-title {
+  display: block;
+  text-align: center;
+  padding-bottom: 20px;
+  font-weight: 600;
+}
+
+.social-likes {
+  text-align: center;
+  .post & {
+    display: block;
   }
 }

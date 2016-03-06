@@ -129,6 +129,17 @@ h2 {
   .pagination .nav-links .prev.page-numbers:before {
     content: '\f053'; }
 
+.social-title {
+  display: block;
+  text-align: center;
+  padding-bottom: 20px;
+  font-weight: 600; }
+
+.social-likes {
+  text-align: center; }
+  .post .social-likes {
+    display: block; }
+
 .site-header {
   background-color: #111;
   position: relative; }
@@ -228,6 +239,37 @@ h2 {
         max-width: 100%;
         height: auto; }
 
+.post.type-post {
+  padding: 50px 0;
+  border-bottom: 1px solid #ccc; }
+  .post.type-post header {
+    text-align: center; }
+    .post.type-post header h1 {
+      font-family: nexa, sans-serif;
+      font-size: 2rem;
+      font-weight: 400; }
+    .post.type-post header .entry-meta {
+      font-weight: 600;
+      font-size: 0.875rem;
+      color: #555; }
+  .post.type-post h2 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 30px; }
+  .post.type-post p {
+    line-height: 20px;
+    margin-bottom: 30px; }
+
+.page.type-page {
+  padding: 30px 0; }
+  .page.type-page .entry-content h2 {
+    margin-bottom: 50px; }
+  .page.type-page .entry-content p {
+    padding-bottom: 20px; }
+
+.page-content {
+  border-bottom: 1px solid #ccc; }
+
 @media screen and (min-width: 992px) {
   h2 {
     font-size: 3rem; }
@@ -283,7 +325,15 @@ h2 {
         width: 320px;
         margin: 45px auto; }
   .pagination {
-    margin: 80px auto; } }
+    margin: 80px auto; }
+  .post.type-post {
+    padding: 100px 0; }
+    .post.type-post header {
+      text-align: center; }
+      .post.type-post header h1 {
+        font-size: 3rem; }
+  .page.type-page {
+    padding: 80px 0 30px; } }
 
 .social-icons {
   text-align: center; }

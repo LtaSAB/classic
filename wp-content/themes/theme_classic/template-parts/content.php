@@ -20,7 +20,7 @@
 
 		if ( 'post' === get_post_type() ) : ?>
 		<div class="entry-meta">
-			<?php theme_classic_posted_on(); ?>
+			Posted on <?php the_date('j M, Y '); ?>
 		</div><!-- .entry-meta -->
 		<?php
 		endif; ?>
@@ -42,6 +42,6 @@
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
-		<?php theme_classic_entry_footer(); ?>
+
 	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->
