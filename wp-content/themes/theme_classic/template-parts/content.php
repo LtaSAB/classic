@@ -19,9 +19,7 @@
 			}
 
 		if ( 'post' === get_post_type() ) : ?>
-		<div class="entry-meta">
-			Posted on <?php the_date('j M, Y '); ?>
-		</div><!-- .entry-meta -->
+
 		<?php
 		endif; ?>
 	</header><!-- .entry-header -->

@@ -283,6 +283,36 @@ the_posts_pagination( $args = array(
 	'next_text' => __( ' ' ),
 	'screen_reader_text' => __( ' ' ),
 ));
+//new post type
+add_action( 'init', 'register_team_members' );
+
+function register_team_members() {
+	$labels = array(
+		'name'               => __('Наша команда'),
+		'singular_name'      => __('Участник'),
+		'add_new'            => __('Добавить участника'),
+		'add_new_item'       => __('Добавить нового участника'),
+		'edit_item'          => __('Редактировать данные участника '),
+		'new_item'           => __('Новый участник'),
+		'all_items'          => __('Все учасники'),
+		'view_item'          => __( 'Просмотр участников'),
+		'search_items'       => __('Искать участников'),
+		'not_found'          => __('Участников не найдено.'),
+		'not_found_in_trash' => __('В корзине нет учасников.'),
+		'menu_name'          => __('Наша команда')
+	);
+	$args   = array(
+		'labels'        => $labels,
+		'public'        => true, // благодаря этому некоторые параметры можно пропустить
+		'menu_icon'     => 'dashicons-universal-access', // иконка корзины
+		'menu_position' => 5,
+		'has_archive'   => true,
+		'supports'      => array( 'title', 'editor', 'excerpt', 'thumbnail', 'comments', 'categories', 'custom-fields' ),
+		'taxonomies'    => array( 'post_tag', 'category' ),
+
+	);
+	register_post_type( 'members', $args );
+}
 
 //form
 add_filter('comment_form_default_fields', 'mytheme_remove_url');

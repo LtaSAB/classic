@@ -25,7 +25,7 @@ get_header(); ?>
 					while ( have_posts() ) : the_post();?>
 						<article>
 							<h2 class="title-centered"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-							<span class="date title-centered">Posted on <?php the_date(); ?></span>
+							<span class="date title-centered">Posted on <?php the_date('j M, Y'); ?></span>
 							<div class="thumbnail-wrapper">
 								<a href="#"><?php the_post_thumbnail();?></a>
 							</div>

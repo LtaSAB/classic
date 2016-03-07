@@ -65,3 +65,33 @@
 .page-content {
   border-bottom: 1px solid #ccc;
 }
+//page-about
+.our-team {
+  padding: 50px 0;
+  h2 {
+
+  }
+  article {
+    text-align: center;
+    padding:40px 15px 0;
+
+    h3 {
+      margin-top: 30px;
+      font-size: (18/16)*1rem;
+      font-weight: 600;
+    }
+    .kind-of-activity {
+      color: #555;
+    }
+    .thumbnail-wrapper {
+      width: 220px;
+      height: 220px;
+      margin: auto;
+      img {
+        width: 100%;
+        height: auto;
+        border-radius: 50%;
+      }
+    }
+  }
+}

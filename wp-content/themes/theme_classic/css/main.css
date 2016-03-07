@@ -270,6 +270,30 @@ h2 {
 .page-content {
   border-bottom: 1px solid #ccc; }
 
+.our-team {
+  padding: 50px 0; }
+  .our-team article {
+    text-align: center;
+    padding: 40px 15px 0; }
+    .our-team article h3 {
+      margin-top: 30px;
+      font-size: 1.125rem;
+      font-weight: 600; }
+    .our-team article .kind-of-activity {
+      color: #555; }
+    .our-team article .thumbnail-wrapper {
+      width: 220px;
+      height: 220px;
+      margin: auto; }
+      .our-team article .thumbnail-wrapper img {
+        width: 100%;
+        height: auto;
+        border-radius: 50%; }
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .our-team article:nth-child(even) {
+    clear: both; } }
+
 @media screen and (min-width: 992px) {
   h2 {
     font-size: 3rem; }
@@ -333,7 +357,13 @@ h2 {
       .post.type-post header h1 {
         font-size: 3rem; }
   .page.type-page {
-    padding: 80px 0 30px; } }
+    padding: 80px 0 30px; }
+  .our-team {
+    padding: 60px 0 100px; }
+    .our-team article {
+      padding: 50px 40px 0; }
+      .our-team article:nth-child(4n+1) {
+        clear: both; } }
 
 .social-icons {
   text-align: center; }
