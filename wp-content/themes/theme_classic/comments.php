@@ -27,30 +27,33 @@ if ( post_password_required() ) {
 	if ( have_comments() ) : ?>
 		<h2 class="comments-title">
 			<?php
-				printf( // WPCS: XSS OK.
-					esc_html( _nx( 'Comments:', 'Comments:', get_comments_number(), 'comments title', 'theme_classic' ) ),
-					number_format_i18n( get_comments_number() ),
-					'<span>' . get_the_title() . '</span>'
-				);
+			printf( // WPCS: XSS OK.
+				esc_html( _nx( 'Comments:', 'Comments:', get_comments_number(), 'comments title', 'theme_classic' ) ),
+				number_format_i18n( get_comments_number() ),
+				'<span>' . get_the_title() . '</span>'
+			);
 			?>
 		</h2>
 		<ol class="comment-list">
 			<?php
-				wp_list_comments( array(
-					'style'      => 'ol',
-					'short_ping' => true,
-					'avatar_size'=> 70,
-				) );
+			wp_list_comments( array(
+				'style'       => 'ol',
+				'short_ping'  => true,
+				'avatar_size' => 70,
+				'reply_text'   => 'Click to Reply'
+			) );
 			?>
 		</ol><!-- .comment-list -->
 
 		<?php if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) : // Are there comments to navigate through? ?>
 			<nav id="comment-nav-below" class="comment-navigation clear" role="navigation">
 				<h1 class="screen-reader-text"><?php _e( 'Comment navigation', 'my-simone' ); ?></h1>
-				<div class="nav-previous"><?php previous_comments_link( __( '<i class="fa fa-arrow-circle-o-left"></i> Older Comments', 'my-simone' ) ); ?></div>
-				<div class="nav-next"><?php next_comments_link( __( 'Newer Comments <i class="fa fa-arrow-circle-o-right"></i>', 'my-simone' ) ); ?></div>
+				<div
+					class="nav-previous"><?php previous_comments_link( __( '<i class="fa fa-arrow-circle-o-left"></i> Older Comments', 'my-simone' ) ); ?></div>
+				<div
+					class="nav-next"><?php next_comments_link( __( 'Newer Comments <i class="fa fa-arrow-circle-o-right"></i>', 'my-simone' ) ); ?></div>
 			</nav><!-- #comment-nav-below -->
-		<?php
+			<?php
 		endif; // Check for comment navigation.
 
 	endif; // Check for have_comments().
@@ -60,10 +63,17 @@ if ( post_password_required() ) {
 	if ( ! comments_open() && get_comments_number() && post_type_supports( get_post_type(), 'comments' ) ) : ?>
 
 		<p class="no-comments"><?php esc_html_e( 'Comments are closed.', 'theme_classic' ); ?></p>
-	<?php
+		<?php
 	endif;
 
-	comment_form();
+	$comments_args = array(
+		// заголовок секции ответа
+		'title_reply'          => __( 'Leave a Comment' ),
+		'comment_notes_before' => ' ',
+		'comment_field'        => '<p class="comment-form-comment"><label for="comment">' . _x( 'Your Comment', 'noun' ) . '</label>
+		<textarea id="comment" name="comment" cols="35" rows="6"  aria-required="true" required="required"></textarea></p>',
+	);
+	comment_form( $comments_args );
 	?>
 
 </div><!-- #comments -->

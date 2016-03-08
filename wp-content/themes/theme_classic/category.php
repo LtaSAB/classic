@@ -42,9 +42,8 @@ get_header(); ?>
 
 					endif; ?>
 				</div>
-				<?php the_posts_pagination( $args ); ?>
 			</section>
-
+			<?php the_posts_pagination( $args ); ?>
 
 
 		</main><!-- #main -->
