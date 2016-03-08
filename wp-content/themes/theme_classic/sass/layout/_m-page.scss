@@ -98,7 +98,13 @@
     }
   }
 }
-
+.category {
+  article {
+    &:last-child {
+      padding-bottom: 50px;
+    }
+  }
+}
 .categorised {
   background-color: rgba(247, 247, 247, 0.85);
   border-bottom: 1px solid #ccc;
