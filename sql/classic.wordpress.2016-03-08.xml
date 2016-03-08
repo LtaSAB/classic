@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress/4.4.2" created="2016-03-07 20:22" -->
+<!-- generator="WordPress/4.4.2" created="2016-03-08 09:28" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>Classic</title>
 	<link>http://classic.hostenko.com</link>
 	<description>description</description>
-	<pubDate>Mon, 07 Mar 2016 20:22:40 +0000</pubDate>
+	<pubDate>Tue, 08 Mar 2016 09:28:07 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://classic.hostenko.com</wp:base_site_url>
@@ -1553,6 +1553,51 @@ Looking to showcase your latest Android based mobile application? Author, Ondrej
 			<wp:meta_key><![CDATA[sociallikes_img_url]]></wp:meta_key>
 			<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:comment>
+			<wp:comment_id>15</wp:comment_id>
+			<wp:comment_author><![CDATA[ltas]]></wp:comment_author>
+			<wp:comment_author_email><![CDATA[ltas1608@gmail.com]]></wp:comment_author_email>
+			<wp:comment_author_url></wp:comment_author_url>
+			<wp:comment_author_IP><![CDATA[37.139.185.244]]></wp:comment_author_IP>
+			<wp:comment_date><![CDATA[2016-03-08 12:25:54]]></wp:comment_date>
+			<wp:comment_date_gmt><![CDATA[2016-03-08 09:25:54]]></wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[I absolutely love the Wunderlist from 6Wunderkinder!! It keeps me organized and makes my life easier. I’m looking to get 
+a HTC phone and wanted to know whether they have an Adroid version out yet?]]></wp:comment_content>
+			<wp:comment_approved><![CDATA[1]]></wp:comment_approved>
+			<wp:comment_type><![CDATA[]]></wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+			<wp:comment_user_id>1</wp:comment_user_id>
+		</wp:comment>
+		<wp:comment>
+			<wp:comment_id>16</wp:comment_id>
+			<wp:comment_author><![CDATA[ltas]]></wp:comment_author>
+			<wp:comment_author_email><![CDATA[ltas1608@gmail.com]]></wp:comment_author_email>
+			<wp:comment_author_url></wp:comment_author_url>
+			<wp:comment_author_IP><![CDATA[37.139.185.244]]></wp:comment_author_IP>
+			<wp:comment_date><![CDATA[2016-03-08 12:25:59]]></wp:comment_date>
+			<wp:comment_date_gmt><![CDATA[2016-03-08 09:25:59]]></wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[I believe they recently released an Android version. You should check out the 6Wunderkinder page. I 
+remember seeing it there.]]></wp:comment_content>
+			<wp:comment_approved><![CDATA[1]]></wp:comment_approved>
+			<wp:comment_type><![CDATA[]]></wp:comment_type>
+			<wp:comment_parent>15</wp:comment_parent>
+			<wp:comment_user_id>1</wp:comment_user_id>
+		</wp:comment>
+		<wp:comment>
+			<wp:comment_id>17</wp:comment_id>
+			<wp:comment_author><![CDATA[ltas]]></wp:comment_author>
+			<wp:comment_author_email><![CDATA[ltas1608@gmail.com]]></wp:comment_author_email>
+			<wp:comment_author_url></wp:comment_author_url>
+			<wp:comment_author_IP><![CDATA[37.139.185.244]]></wp:comment_author_IP>
+			<wp:comment_date><![CDATA[2016-03-08 12:26:03]]></wp:comment_date>
+			<wp:comment_date_gmt><![CDATA[2016-03-08 09:26:03]]></wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[This is the greatest app ever! So simple and so beautiful!! I’m so glad that they have cloud sync for this app, makes it 
+easy manage tasks over multiple devices.]]></wp:comment_content>
+			<wp:comment_approved><![CDATA[1]]></wp:comment_approved>
+			<wp:comment_type><![CDATA[]]></wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+			<wp:comment_user_id>1</wp:comment_user_id>
+		</wp:comment>
 	</item>
 	<item>
 		<title>Home</title>
@@ -1674,10 +1719,18 @@ Looking to showcase your latest Android based mobile application? Author, Ondrej
 			<wp:comment_date><![CDATA[2016-03-06 23:12:31]]></wp:comment_date>
 			<wp:comment_date_gmt><![CDATA[2016-03-06 20:12:31]]></wp:comment_date_gmt>
 			<wp:comment_content><![CDATA[fgfgf]]></wp:comment_content>
-			<wp:comment_approved><![CDATA[1]]></wp:comment_approved>
+			<wp:comment_approved><![CDATA[trash]]></wp:comment_approved>
 			<wp:comment_type><![CDATA[]]></wp:comment_type>
 			<wp:comment_parent>0</wp:comment_parent>
 			<wp:comment_user_id>1</wp:comment_user_id>
+			<wp:commentmeta>
+				<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
+				<wp:meta_value><![CDATA[1]]></wp:meta_value>
+			</wp:commentmeta>
+			<wp:commentmeta>
+				<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
+				<wp:meta_value><![CDATA[1457423557]]></wp:meta_value>
+			</wp:commentmeta>
 		</wp:comment>
 		<wp:comment>
 			<wp:comment_id>4</wp:comment_id>
@@ -1688,9 +1741,62 @@ Looking to showcase your latest Android based mobile application? Author, Ondrej
 			<wp:comment_date><![CDATA[2016-03-06 23:12:57]]></wp:comment_date>
 			<wp:comment_date_gmt><![CDATA[2016-03-06 20:12:57]]></wp:comment_date_gmt>
 			<wp:comment_content><![CDATA[jhjh]]></wp:comment_content>
-			<wp:comment_approved><![CDATA[1]]></wp:comment_approved>
+			<wp:comment_approved><![CDATA[trash]]></wp:comment_approved>
 			<wp:comment_type><![CDATA[]]></wp:comment_type>
 			<wp:comment_parent>3</wp:comment_parent>
+			<wp:comment_user_id>1</wp:comment_user_id>
+			<wp:commentmeta>
+				<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
+				<wp:meta_value><![CDATA[1]]></wp:meta_value>
+			</wp:commentmeta>
+			<wp:commentmeta>
+				<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
+				<wp:meta_value><![CDATA[1457423556]]></wp:meta_value>
+			</wp:commentmeta>
+		</wp:comment>
+		<wp:comment>
+			<wp:comment_id>12</wp:comment_id>
+			<wp:comment_author><![CDATA[ltas]]></wp:comment_author>
+			<wp:comment_author_email><![CDATA[ltas1608@gmail.com]]></wp:comment_author_email>
+			<wp:comment_author_url></wp:comment_author_url>
+			<wp:comment_author_IP><![CDATA[37.139.185.244]]></wp:comment_author_IP>
+			<wp:comment_date><![CDATA[2016-03-08 12:25:27]]></wp:comment_date>
+			<wp:comment_date_gmt><![CDATA[2016-03-08 09:25:27]]></wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[I absolutely love the Wunderlist from 6Wunderkinder!! It keeps me organized and makes my life easier. I’m looking to get 
+a HTC phone and wanted to know whether they have an Adroid version out yet?]]></wp:comment_content>
+			<wp:comment_approved><![CDATA[1]]></wp:comment_approved>
+			<wp:comment_type><![CDATA[]]></wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+			<wp:comment_user_id>1</wp:comment_user_id>
+		</wp:comment>
+		<wp:comment>
+			<wp:comment_id>13</wp:comment_id>
+			<wp:comment_author><![CDATA[ltas]]></wp:comment_author>
+			<wp:comment_author_email><![CDATA[ltas1608@gmail.com]]></wp:comment_author_email>
+			<wp:comment_author_url></wp:comment_author_url>
+			<wp:comment_author_IP><![CDATA[37.139.185.244]]></wp:comment_author_IP>
+			<wp:comment_date><![CDATA[2016-03-08 12:25:33]]></wp:comment_date>
+			<wp:comment_date_gmt><![CDATA[2016-03-08 09:25:33]]></wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[I believe they recently released an Android version. You should check out the 6Wunderkinder page. I 
+remember seeing it there.]]></wp:comment_content>
+			<wp:comment_approved><![CDATA[1]]></wp:comment_approved>
+			<wp:comment_type><![CDATA[]]></wp:comment_type>
+			<wp:comment_parent>12</wp:comment_parent>
+			<wp:comment_user_id>1</wp:comment_user_id>
+		</wp:comment>
+		<wp:comment>
+			<wp:comment_id>14</wp:comment_id>
+			<wp:comment_author><![CDATA[ltas]]></wp:comment_author>
+			<wp:comment_author_email><![CDATA[ltas1608@gmail.com]]></wp:comment_author_email>
+			<wp:comment_author_url></wp:comment_author_url>
+			<wp:comment_author_IP><![CDATA[37.139.185.244]]></wp:comment_author_IP>
+			<wp:comment_date><![CDATA[2016-03-08 12:25:38]]></wp:comment_date>
+			<wp:comment_date_gmt><![CDATA[2016-03-08 09:25:38]]></wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[This is the greatest app ever! So simple and so beautiful!! I’m so glad that they have cloud sync for this app, makes it 
+easy manage tasks over multiple devices.]]></wp:comment_content>
+			<wp:comment_approved><![CDATA[1]]></wp:comment_approved>
+			<wp:comment_type><![CDATA[]]></wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
 			<wp:comment_user_id>1</wp:comment_user_id>
 		</wp:comment>
 	</item>
@@ -1748,6 +1854,50 @@ Looking to showcase your latest Android based mobile application? Author, Ondrej
 			<wp:meta_key><![CDATA[sociallikes_img_url]]></wp:meta_key>
 			<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:comment>
+			<wp:comment_id>9</wp:comment_id>
+			<wp:comment_author><![CDATA[ltas]]></wp:comment_author>
+			<wp:comment_author_email><![CDATA[ltas1608@gmail.com]]></wp:comment_author_email>
+			<wp:comment_author_url></wp:comment_author_url>
+			<wp:comment_author_IP><![CDATA[37.139.185.244]]></wp:comment_author_IP>
+			<wp:comment_date><![CDATA[2016-03-08 12:24:45]]></wp:comment_date>
+			<wp:comment_date_gmt><![CDATA[2016-03-08 09:24:45]]></wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[I absolutely love the Wunderlist from 6Wunderkinder!! It keeps me organized and makes my life easier. I’mlooking to get a HTC phone and wanted to knowwhether they have an Adroid version out yet?]]></wp:comment_content>
+			<wp:comment_approved><![CDATA[1]]></wp:comment_approved>
+			<wp:comment_type><![CDATA[]]></wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+			<wp:comment_user_id>1</wp:comment_user_id>
+		</wp:comment>
+		<wp:comment>
+			<wp:comment_id>10</wp:comment_id>
+			<wp:comment_author><![CDATA[ltas]]></wp:comment_author>
+			<wp:comment_author_email><![CDATA[ltas1608@gmail.com]]></wp:comment_author_email>
+			<wp:comment_author_url></wp:comment_author_url>
+			<wp:comment_author_IP><![CDATA[37.139.185.244]]></wp:comment_author_IP>
+			<wp:comment_date><![CDATA[2016-03-08 12:24:55]]></wp:comment_date>
+			<wp:comment_date_gmt><![CDATA[2016-03-08 09:24:55]]></wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[I believe they recently released an Android version. You should check out the 6Wunderkinder page. I 
+remember seeing it there.]]></wp:comment_content>
+			<wp:comment_approved><![CDATA[1]]></wp:comment_approved>
+			<wp:comment_type><![CDATA[]]></wp:comment_type>
+			<wp:comment_parent>9</wp:comment_parent>
+			<wp:comment_user_id>1</wp:comment_user_id>
+		</wp:comment>
+		<wp:comment>
+			<wp:comment_id>11</wp:comment_id>
+			<wp:comment_author><![CDATA[ltas]]></wp:comment_author>
+			<wp:comment_author_email><![CDATA[ltas1608@gmail.com]]></wp:comment_author_email>
+			<wp:comment_author_url></wp:comment_author_url>
+			<wp:comment_author_IP><![CDATA[37.139.185.244]]></wp:comment_author_IP>
+			<wp:comment_date><![CDATA[2016-03-08 12:25:02]]></wp:comment_date>
+			<wp:comment_date_gmt><![CDATA[2016-03-08 09:25:02]]></wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[This is the greatest app ever! So simple and so beautiful!! I’m so glad that they have cloud sync for this app, makes it 
+easy manage tasks over multiple devices.]]></wp:comment_content>
+			<wp:comment_approved><![CDATA[1]]></wp:comment_approved>
+			<wp:comment_type><![CDATA[]]></wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+			<wp:comment_user_id>1</wp:comment_user_id>
+		</wp:comment>
 	</item>
 	<item>
 		<title>Marketing Tips &amp; Tricks From the  Top Brands</title>
@@ -1813,6 +1963,81 @@ Looking to showcase your latest Android based mobile application? Author, Ondrej
 			<wp:comment_date><![CDATA[2016-03-06 14:27:16]]></wp:comment_date>
 			<wp:comment_date_gmt><![CDATA[2016-03-06 11:27:16]]></wp:comment_date_gmt>
 			<wp:comment_content><![CDATA[kl]]></wp:comment_content>
+			<wp:comment_approved><![CDATA[trash]]></wp:comment_approved>
+			<wp:comment_type><![CDATA[]]></wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+			<wp:comment_user_id>1</wp:comment_user_id>
+			<wp:commentmeta>
+				<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
+				<wp:meta_value><![CDATA[1]]></wp:meta_value>
+			</wp:commentmeta>
+			<wp:commentmeta>
+				<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
+				<wp:meta_value><![CDATA[1457423559]]></wp:meta_value>
+			</wp:commentmeta>
+		</wp:comment>
+		<wp:comment>
+			<wp:comment_id>5</wp:comment_id>
+			<wp:comment_author><![CDATA[ltas]]></wp:comment_author>
+			<wp:comment_author_email><![CDATA[ltas1608@gmail.com]]></wp:comment_author_email>
+			<wp:comment_author_url></wp:comment_author_url>
+			<wp:comment_author_IP><![CDATA[37.139.185.244]]></wp:comment_author_IP>
+			<wp:comment_date><![CDATA[2016-03-08 10:51:56]]></wp:comment_date>
+			<wp:comment_date_gmt><![CDATA[2016-03-08 07:51:56]]></wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[good]]></wp:comment_content>
+			<wp:comment_approved><![CDATA[trash]]></wp:comment_approved>
+			<wp:comment_type><![CDATA[]]></wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+			<wp:comment_user_id>1</wp:comment_user_id>
+			<wp:commentmeta>
+				<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
+				<wp:meta_value><![CDATA[1]]></wp:meta_value>
+			</wp:commentmeta>
+			<wp:commentmeta>
+				<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
+				<wp:meta_value><![CDATA[1457423545]]></wp:meta_value>
+			</wp:commentmeta>
+		</wp:comment>
+		<wp:comment>
+			<wp:comment_id>6</wp:comment_id>
+			<wp:comment_author><![CDATA[ltas]]></wp:comment_author>
+			<wp:comment_author_email><![CDATA[ltas1608@gmail.com]]></wp:comment_author_email>
+			<wp:comment_author_url></wp:comment_author_url>
+			<wp:comment_author_IP><![CDATA[37.139.185.244]]></wp:comment_author_IP>
+			<wp:comment_date><![CDATA[2016-03-08 10:52:19]]></wp:comment_date>
+			<wp:comment_date_gmt><![CDATA[2016-03-08 07:52:19]]></wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[I absolutely love the Wunderlist from 6Wunderkinder!! It keeps me organized and makes my life easier. I’m looking to get 
+a HTC phone and wanted to know whether they have an Adroid version out yet?]]></wp:comment_content>
+			<wp:comment_approved><![CDATA[1]]></wp:comment_approved>
+			<wp:comment_type><![CDATA[]]></wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+			<wp:comment_user_id>1</wp:comment_user_id>
+		</wp:comment>
+		<wp:comment>
+			<wp:comment_id>7</wp:comment_id>
+			<wp:comment_author><![CDATA[ltas]]></wp:comment_author>
+			<wp:comment_author_email><![CDATA[ltas1608@gmail.com]]></wp:comment_author_email>
+			<wp:comment_author_url></wp:comment_author_url>
+			<wp:comment_author_IP><![CDATA[37.139.185.244]]></wp:comment_author_IP>
+			<wp:comment_date><![CDATA[2016-03-08 10:52:46]]></wp:comment_date>
+			<wp:comment_date_gmt><![CDATA[2016-03-08 07:52:46]]></wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[I believe they recently released an Android version. You should check out the 6Wunderkinder page. I 
+remember seeing it there.]]></wp:comment_content>
+			<wp:comment_approved><![CDATA[1]]></wp:comment_approved>
+			<wp:comment_type><![CDATA[]]></wp:comment_type>
+			<wp:comment_parent>6</wp:comment_parent>
+			<wp:comment_user_id>1</wp:comment_user_id>
+		</wp:comment>
+		<wp:comment>
+			<wp:comment_id>8</wp:comment_id>
+			<wp:comment_author><![CDATA[ltas]]></wp:comment_author>
+			<wp:comment_author_email><![CDATA[ltas1608@gmail.com]]></wp:comment_author_email>
+			<wp:comment_author_url></wp:comment_author_url>
+			<wp:comment_author_IP><![CDATA[37.139.185.244]]></wp:comment_author_IP>
+			<wp:comment_date><![CDATA[2016-03-08 10:53:09]]></wp:comment_date>
+			<wp:comment_date_gmt><![CDATA[2016-03-08 07:53:09]]></wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[This is the greatest app ever! So simple and so beautiful!! I’m so glad that they have cloud sync for this app, makes it 
+easy manage tasks over multiple devices.]]></wp:comment_content>
 			<wp:comment_approved><![CDATA[1]]></wp:comment_approved>
 			<wp:comment_type><![CDATA[]]></wp:comment_type>
 			<wp:comment_parent>0</wp:comment_parent>

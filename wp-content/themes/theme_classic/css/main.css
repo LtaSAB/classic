@@ -393,3 +393,86 @@ h2 {
     content: '\f18e';
     font-family: FontAwesome, sans-serif;
     padding-right: 7px; }
+
+.comments-area {
+  padding: 20px 0 50px; }
+  @media screen and (min-width: 992px) {
+    .comments-area {
+      padding: 30px 0 100px; } }
+  .comments-area .comments-title {
+    font-weight: 400;
+    font-size: 2rem; }
+  .comments-area > ol {
+    padding: 0;
+    list-style-type: none; }
+  .comments-area ol.children {
+    list-style-type: none; }
+  .comments-area .comment-list .comment-body {
+    padding-top: 50px; }
+  .comments-area .comment-list .comment-meta {
+    margin-bottom: 20px; }
+    .comments-area .comment-list .comment-meta .comment-author .avatar {
+      width: 70px;
+      float: left;
+      margin-right: 20px;
+      border-radius: 50%; }
+    .comments-area .comment-list .comment-meta .comment-author.vcard {
+      padding: 15px 0; }
+      .comments-area .comment-list .comment-meta .comment-author.vcard .fn {
+        font-size: 1.5rem;
+        font-weight: 600; }
+    .comments-area .comment-list .comment-meta time {
+      color: #555;
+      font-size: 14px;
+      font-weight: 600; }
+  .comments-area .comment-list ol {
+    margin-left: 90px; }
+  .comments-area .comment-content {
+    clear: left;
+    margin-left: 90px; }
+  .comments-area .reply {
+    margin-left: 90px;
+    font-weight: 600; }
+    .comments-area .reply a {
+      color: #555; }
+      .comments-area .reply a:before {
+        content: '\f112';
+        font-family: FontAwesome, sans-serif;
+        padding-right: 5px;
+        font-size: 80%; }
+  @media screen and (max-width: 767px) {
+    .comments-area .comment-list ol {
+      margin-left: 0; }
+    .comments-area .comment-content {
+      margin-left: 1.5em; }
+    .comments-area .comment-content,
+    .comments-area .reply {
+      margin-left: 0; } }
+
+.comment-respond label {
+  font-weight: 600;
+  display: block; }
+
+.comment-respond .comment-reply-title {
+  font-size: 2.125rem;
+  font-family: nexa, sans-serif;
+  font-weight: 400;
+  margin: 40px 0 30px; }
+
+.comment-respond .comment-notes {
+  display: none; }
+
+@media screen and (max-width: 767px) {
+  .comment-respond {
+    margin: 70px 0 50px; } }
+
+.comment-respond .comment-form input, .comment-respond .comment-form textarea {
+  border: 1px solid #ccc;
+  border-radius: 2px; }
+
+.comment-respond .comment-form .form-submit input[type="submit"] {
+  outline: none;
+  text-transform: uppercase;
+  background-color: darkgrey;
+  color: white;
+  padding: 7px 10px; }
