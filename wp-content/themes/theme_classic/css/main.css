@@ -452,7 +452,8 @@ h2 {
   .comments-area ol.children {
     list-style-type: none; }
   .comments-area .comment-list .comment-body {
-    padding-top: 50px; }
+    padding: 50px 0 0;
+    border: none; }
   .comments-area .comment-list .comment-meta {
     margin-bottom: 20px; }
     .comments-area .comment-list .comment-meta .comment-author .avatar {
