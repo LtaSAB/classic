@@ -197,9 +197,15 @@ h2 {
   font-weight: 600;
 }
 
-.social-likes {
-  text-align: center;
-  .post & {
+.single-post {
+  .social-likes {
+    text-align: center;
     display: block;
   }
+}
+
+.aligncenter {
+  clear: both;
+  display: block;
+  margin: 45px auto;
 }

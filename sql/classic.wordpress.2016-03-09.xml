@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress/4.4.2" created="2016-03-08 18:21" -->
+<!-- generator="WordPress/4.4.2" created="2016-03-09 09:10" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>Classic</title>
 	<link>http://classic.hostenko.com</link>
 	<description>description</description>
-	<pubDate>Tue, 08 Mar 2016 18:21:46 +0000</pubDate>
+	<pubDate>Wed, 09 Mar 2016 09:10:38 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://classic.hostenko.com</wp:base_site_url>
@@ -2141,7 +2141,7 @@ Author, Ondrej Lechan, designed three highly detailed and customizable HTC brand
 Intent is a unique PSD template that’s ideal for design agencies and design professionals to illustrate their portfolio. A fantastic replica of the 13” MacBook Air by Koy Carraway. This is a fully layered &amp; scalable MacBook Air made almost entirely from vector shapes in Photoshop.
 
 <img class="size-medium wp-image-50 aligncenter" src="http://classic.hostenko.com/wp-content/uploads/2016/03/Koala-300x225.jpg" alt="Koala" width="300" height="225" />
-<h2>Features of Wunderlist</h2>
+<h3>Features of Wunderlist</h3>
 Features of Wunderlist Looking to showcase your latest Android based mobile application? Author, Ondrej Lechan, designed three highly detailed and customizable HTC branded phone mockups to meet that specific need. The HTC One X, S, and V series phones can be the perfect sidekick to showcase your mobile design work. Looking to showcase your latest Android based mobile application?
 
 Author, Ondrej Lechan, designed three highly detailed and customizable HTC branded phone mockups to meet that specific need.
@@ -2174,12 +2174,57 @@ Looking to showcase your latest Android based mobile application? Author, Ondrej
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[sociallikes]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[sociallikes_img_url]]></wp:meta_key>
 			<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:comment>
+			<wp:comment_id>18</wp:comment_id>
+			<wp:comment_author><![CDATA[alex]]></wp:comment_author>
+			<wp:comment_author_email><![CDATA[ltas1608@gmail.com]]></wp:comment_author_email>
+			<wp:comment_author_url></wp:comment_author_url>
+			<wp:comment_author_IP><![CDATA[37.139.185.244]]></wp:comment_author_IP>
+			<wp:comment_date><![CDATA[2016-03-08 21:29:29]]></wp:comment_date>
+			<wp:comment_date_gmt><![CDATA[2016-03-08 18:29:29]]></wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[This is the greatest app ever! So simple and so beautiful!! I’m so glad that they have cloud sync for this app, makes it
+easy manage tasks over multiple devices.]]></wp:comment_content>
+			<wp:comment_approved><![CDATA[1]]></wp:comment_approved>
+			<wp:comment_type><![CDATA[]]></wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+			<wp:comment_user_id>0</wp:comment_user_id>
+		</wp:comment>
+		<wp:comment>
+			<wp:comment_id>19</wp:comment_id>
+			<wp:comment_author><![CDATA[ltas]]></wp:comment_author>
+			<wp:comment_author_email><![CDATA[ltas1608@gmail.com]]></wp:comment_author_email>
+			<wp:comment_author_url></wp:comment_author_url>
+			<wp:comment_author_IP><![CDATA[37.139.185.244]]></wp:comment_author_IP>
+			<wp:comment_date><![CDATA[2016-03-08 21:30:11]]></wp:comment_date>
+			<wp:comment_date_gmt><![CDATA[2016-03-08 18:30:11]]></wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[I believe they recently released an Android version. You should check out the 6Wunderkinder page. I
+remember seeing it there.]]></wp:comment_content>
+			<wp:comment_approved><![CDATA[1]]></wp:comment_approved>
+			<wp:comment_type><![CDATA[]]></wp:comment_type>
+			<wp:comment_parent>18</wp:comment_parent>
+			<wp:comment_user_id>1</wp:comment_user_id>
+		</wp:comment>
+		<wp:comment>
+			<wp:comment_id>20</wp:comment_id>
+			<wp:comment_author><![CDATA[ltas]]></wp:comment_author>
+			<wp:comment_author_email><![CDATA[ltas1608@gmail.com]]></wp:comment_author_email>
+			<wp:comment_author_url></wp:comment_author_url>
+			<wp:comment_author_IP><![CDATA[37.139.185.244]]></wp:comment_author_IP>
+			<wp:comment_date><![CDATA[2016-03-08 21:31:27]]></wp:comment_date>
+			<wp:comment_date_gmt><![CDATA[2016-03-08 18:31:27]]></wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[I absolutely love the Wunderlist from 6Wunderkinder!! It keeps me organized and makes my life easier. I’m looking to get
+a HTC phone and wanted to know whether they have an Adroid version out yet?]]></wp:comment_content>
+			<wp:comment_approved><![CDATA[1]]></wp:comment_approved>
+			<wp:comment_type><![CDATA[]]></wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+			<wp:comment_user_id>1</wp:comment_user_id>
+		</wp:comment>
 	</item>
 </channel>
 </rss>

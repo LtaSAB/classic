@@ -1,0 +1,9 @@
+.social-likes {
+  &:before {
+    content: 'Share this article...';
+    display: block;
+    font-weight: 600;
+   font-size: 1rem;
+    padding: 40px 0 20px;
+  }
+}
